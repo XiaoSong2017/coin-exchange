@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="statistics-service" />
+        <module name="finance-service" />
+        <module name="admin-api" />
+        <module name="match-service" />
+        <module name="coin-task" />
+        <module name="statistics-api" />
+        <module name="coin-common" />
+        <module name="exchange-service" />
+        <module name="authorization-server" />
+        <module name="chan-service" />
+        <module name="match-api" />
+        <module name="exchange-api" />
+        <module name="gateway-server" />
+        <module name="member-service" />
+        <module name="chan-api" />
+        <module name="member-api" />
+        <module name="finance-api" />
+        <module name="admin-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
