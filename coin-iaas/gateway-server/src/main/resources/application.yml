@@ -17,8 +17,8 @@ spring:
         - id: admin-service_router
           uri: lb://admin-service
           predicates:
-            - path=/admin/**
+            - Path=/admin/**
         - id: test_router
           uri: http://www.baidu.com
           predicates:
-            - path=/test
+            - Path=/test
