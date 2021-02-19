@@ -10,6 +10,16 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<artifactId>gateway-server</artifactId>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-gateway</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba.cloud</groupId>
+			<artifactId>spring-cloud-alibaba-nacos-discovery</artifactId>
+		</dependency>
+	</dependencies>
 	
 	<properties>
 		<maven.compiler.source>8</maven.compiler.source>
